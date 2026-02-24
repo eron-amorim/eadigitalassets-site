@@ -23,6 +23,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Calendly -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </head>
 
 <body>
@@ -65,7 +69,7 @@
           </p>
 
           <div class="hero__cta">
-            <a class="btn btn--primary" href="#contato">
+            <a class="btn btn--primary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/eron-eadigitalassets/30min'});return false;">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
               Agendar diagnóstico
             </a>
@@ -252,6 +256,11 @@
             <div class="contact__badge">Gratuito</div>
             <h3>Diagnóstico (30 min)</h3>
             <p class="muted">Sem enrolação. Você sai com direção.</p>
+
+            <a class="btn btn--primary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/eron-eadigitalassets/30min'});return false;" style="width:100%;margin:14px 0">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Agendar agora
+            </a>
 
             <div class="contact__lines">
               <a href="mailto:hello@eadigitalassets.com" class="contact__line">
