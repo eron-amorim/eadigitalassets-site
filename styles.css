@@ -443,6 +443,34 @@ h1{
 
 .fine{font-size:12px;color:var(--muted);margin:0}
 
+/* ===== FORM ===== */
+.form{display:flex;flex-direction:column;gap:10px}
+.form__input{
+  width:100%;padding:12px 14px;border-radius:10px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  color:var(--text);font-family:inherit;font-size:14px;
+  transition:var(--transition);
+  outline:none;
+}
+.form__input::placeholder{color:var(--muted)}
+.form__input:focus{
+  border-color:rgba(201,169,106,.4);
+  background:rgba(255,255,255,.06);
+  box-shadow:0 0 0 3px rgba(201,169,106,.1);
+}
+.form__textarea{resize:vertical;min-height:80px;line-height:1.5}
+
+/* ===== FOOTER EMAILS ===== */
+.footer-emails{
+  margin-top:20px;padding:14px 0;
+  display:flex;flex-wrap:wrap;gap:8px;
+  justify-content:center;align-items:center;
+  font-size:13px;
+}
+.footer-emails a{color:var(--muted);transition:var(--transition)}
+.footer-emails a:hover{color:var(--accent)}
+
 /* ===== FOOTER ===== */
 .footer{
   margin-top:24px;padding-top:24px;
