@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dfc07d"/>
+      <stop offset="50%" stop-color="#c9a96a"/>
+      <stop offset="100%" stop-color="#b08d4f"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141925"/>
+      <stop offset="100%" stop-color="#0b0d10"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="200" height="200" rx="40" fill="url(#bg)"/>
+  <!-- Subtle border -->
+  <rect x="1" y="1" width="198" height="198" rx="39" fill="none" stroke="url(#gold)" stroke-width="1.5" opacity=".35"/>
+  <!-- Inner glow line top -->
+  <line x1="40" y1="1" x2="160" y2="1" stroke="url(#gold)" stroke-width="2" opacity=".5"/>
+  <!-- E letter - geometric -->
+  <path d="M 42 58 L 42 142 L 90 142 L 90 130 L 58 130 L 58 106 L 84 106 L 84 94 L 58 94 L 58 70 L 90 70 L 90 58 Z" fill="url(#gold)"/>
+  <!-- A letter - geometric -->
+  <path d="M 110 142 L 126 142 L 128 130 L 152 130 L 154 142 L 170 142 L 148 58 L 132 58 Z M 131 118 L 140 78 L 149 118 Z" fill="url(#gold)"/>
+  <!-- Accent dot -->
+  <circle cx="100" cy="156" r="3" fill="url(#gold)" opacity=".5"/>
+</svg>
